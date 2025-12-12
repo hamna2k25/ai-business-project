@@ -1,110 +1,63 @@
-# 📊 Customer Churn Analysis Report  
-An interactive dashboard built with **React** and **Recharts** to analyze customer churn patterns through data visualization.
+# 📊 Customer Churn Analysis Report
 
-This project demonstrates basic data analytics concepts such as churn rate, customer behavior segmentation, and predictive insights based on tenure, age, and contract type.
+## 📌 Project Overview
+This project performs a **comprehensive customer churn analysis** using a small sample dataset of 7 customers. It visualizes customer retention patterns, churn rates by gender and age group, and predicts churn trends over tenure. The interactive React dashboard allows toggling between **customer details** and **visual analysis**.
 
----
-
-## 🚀 Project Overview
-This project presents a **Customer Churn Analysis Dashboard** that displays:
-
-- Customer demographic information  
-- Churn status (Active vs Churned)  
-- Churn distribution using pie charts  
-- Gender-wise churn comparison  
-- Age-group based churn pattern  
-- Prediction of churn rate over customer tenure  
-- Business recommendations based on the data  
-
-The dashboard allows switching between:
-- **Customer Details Table**
-- **Visual Data Analysis (Charts)**
+> **Note:** This project was created using **Clute**, an AI code generation tool. I designed the business problem, selected the dataset, and used Clute to generate the model code. I then interpreted the results and created visualizations using Recharts and React.
 
 ---
 
-## 🛠️ Technologies Used
-| Purpose | Tools / Libraries |
-|--------|-------------------|
-| Frontend Framework | **React.js** |
-| Charts & Visualization | **Recharts** |
-| Icons | **lucide-react** |
-| Styling | **Tailwind CSS** |
+## 💡 Key Features
+- Display **customer details** with status and churn reason  
+- Visual analysis of churn via **Pie, Bar, and Line Charts**  
+- Churn rates analyzed by **gender, age group, and tenure**  
+- Recommendations for **retention strategies** based on insights  
 
 ---
 
-## 📁 Dataset (Sample of 7 Customers)
-The dataset includes:
-
-- Age  
-- Gender  
-- Tenure (months)  
-- Contract type  
-- Monthly & total charges  
-- Churn status  
-- Churn reason  
-
-Even though this is a small sample, it helps demonstrate how real-world churn analysis works.
+## 🛠 Tools & Technologies
+- **React** – Frontend framework  
+- **Recharts** – Charts and data visualization  
+- **Lucide-react** – Icons for dashboard metrics  
+- **Clute** – AI-powered code generation (credit for code assistance)  
 
 ---
 
-## 📈 Key Business Insights
-### ✔ 1. Female customers churn more (75% churn rate)  
-### ✔ 2. Month-to-month contracts have 100% churn in this sample  
-### ✔ 3. Churn peaks at the **12-month mark**  
-### ✔ 4. Long-tenure customers (36+ months) show high loyalty  
-
-These insights are highlighted through:
-- **Pie Charts**
-- **Bar Charts**
-- **Line Charts**
-- **Summary Cards**
+## 🎯 Business Problem
+Customer churn is costly for businesses. Understanding which customers are likely to leave allows companies to **target retention strategies**, improve services, and **increase profitability**.
 
 ---
 
-## 🔍 Features
-### **1. Detailed Customer Table**
-Shows all customer-level attributes clearly.
-
-### **2. Interactive Visual Dashboards**
-Includes:
-- Pie chart for churn percentage  
-- Bar chart for gender-wise churn  
-- Bar chart for age group churn  
-- Line chart showing churn prediction across tenure  
-
-### **3. Key Metrics Summary**
-Displays:
-- Total customers  
-- Churned customers  
-- Churn rate  
-- Average monthly charge  
+## 📈 Key Metrics
+- Total Customers: 7  
+- Churned: 4  
+- Churn Rate: 57.1%  
+- Average Monthly Charge: $85.27  
 
 ---
 
-## 🎯 Business Problem Solved
-The project answers the question:
-
-**“Which customers are most likely to leave, and why?”**
-
-Companies can use this to:
-- Improve customer retention  
-- Reduce churn losses  
-- Identify high-risk groups  
-- Strengthen customer support at critical points (like month 12)  
+## 📊 Insights & Findings
+- Female customers have **higher churn rates** than male customers  
+- Peak churn occurs around **12 months of tenure**  
+- Month-to-month contracts are most vulnerable to churn  
+- Customers with 36+ months tenure have **lower churn risk**
 
 ---
 
-## 🧠 What I Learned
-While building this project, I learned:
-
-- How customer churn affects business revenue  
-- How to visualize data effectively using charts  
-- How tenure, contract type, and gender impact churn  
-- Basics of front-end data analysis dashboards  
-- How companies use analytics to improve retention strategies  
-
-This project improved both my **business understanding** and **technical skills**.
+## 💡 Recommendations
+1. **Focus on Female Customer Retention** – Implement targeted retention programs, especially for month-to-month contracts.  
+2. **Incentivize Long-term Contracts** – Offer benefits for annual or bi-annual plans.  
+3. **Critical 12-Month Intervention** – Launch retention campaigns before the 12-month peak churn period.
 
 ---
 
-## ▶️ How to Run the Project
+## 🚀 How to Use
+1. Clone the repository.  
+2. Run `npm install` to install dependencies.  
+3. Run `npm start` to launch the dashboard.  
+4. Explore the interactive visualizations and insights.
+
+---
+
+## 👩‍💻 Author
+**Hamna Jamil** – Showcasing initiative, React programming skills, and practical business understanding.
